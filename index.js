@@ -1,4 +1,4 @@
-import './style/style.css';
+import '/style/style.css';
 
 let timer;
 let res;
@@ -49,7 +49,6 @@ function func() {
 }
 function closeRepo(e) {
   main.removeChild(e.target.closest('.card'));
-  console.log(this)
 }
 
 function openRepo(e, arr) {
