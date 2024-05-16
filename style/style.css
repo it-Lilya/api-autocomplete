@@ -54,6 +54,10 @@ ul {
   border: 1px solid black;
   position: relative;
 }
+.card:hover {
+  border: none;
+  outline: 3px solid rgb(26, 130, 210);
+}
 .btn-close {
   position: absolute;
   content: '';
